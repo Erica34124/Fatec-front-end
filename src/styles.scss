@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+margin: 20px auto;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 1.25rem;
+}
+.titulo{
+    font-weight: 500;
+    font-size: 40px;
+    text-shadow: 0.1em 0.1em 0.05em rgb(168, 160, 160);
+}
+.img {
+    border: solid 2px transparent;
+    text-align: center;
+    }
+    .btn-v{
+        width: 400px;
+        background-color: red;
+        color: white;
+        border-radius: 5px;
+        height: 40px;
+        border: solid 2px red;
+    }
+    .btn-b{
+        width: 400px;
+        color: red;
+        margin: 20px;
+        background-color: white;
+        border-radius: 5px;
+        height: 40px;
+        border: solid 2px red;
+    }
+

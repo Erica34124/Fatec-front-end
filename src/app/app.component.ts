@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +7,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Fatec-Infraestrutura';
+  // photos: object[] = [];
+
+  
+  // constructor(http: HttpClient){
+  //     http
+  //    .get<object[]>("http://localhost:3000/flavio/photos")
+  //    .subscribe(photos => {
+  //     console.log(photos); 
+  //     this.photos = photos});
+  // }
+  
 }
